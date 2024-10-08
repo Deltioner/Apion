@@ -15,10 +15,10 @@ const App = () => {
       <Home/>
 
       <div className="container">
-          <Title subTitle="Services" title="What We Offer"/>
-          <Services/>
           <Title subTitle="About us" title="Apion Technology"/>
           <About/>
+          <Title subTitle="Services" title="What We Offer"/>
+          <Services/>
           <Title subTitle="Contact Us" title="Get in Touch"/>
           <Contact/>
           <Footer/>
