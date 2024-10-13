@@ -1,18 +1,12 @@
 import React from 'react'
 import "./About.css"
 import about_img from "../../assets/about.jpeg"
-import play from "../../assets/play.png"
+
 
 
 const About = () => {
   return (
     <div className='about' id='aboutus'>
-        
-        <div className="about-left">
-            <img src={about_img} alt="" className='about-img'/>
-            <img src={play} alt="" className='play-icon'/>
-
-        </div>
         
         <div className="about-right">
             <h3>About Apion</h3>
@@ -29,6 +23,11 @@ const About = () => {
                 Suspendisse varius enim in eros elementum <br />
                 tristique. Duis cursus, mi quis viverra ornare, <br />
                 eros dolor interdum nulla.</p>
+        </div>
+
+        <div className="about-left">
+            <img src={about_img} alt="" className='about-img'/>
+            
         </div>
         
     </div>
