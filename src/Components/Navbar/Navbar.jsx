@@ -8,7 +8,7 @@ const Navbar = () => {
   const handleJoinClick = () => {
     window.open("/LogSign", "_blank", "noopener,noreferrer");
   };
-
+  
   const [dis, setdis] = useState(false);
 
   useEffect(() => {

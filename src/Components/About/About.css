@@ -4,6 +4,7 @@
     align-items: center;
     justify-content: space-between;
     width: 90%;
+    margin-right: 10px;
 }
 
 .about-left{
@@ -14,7 +15,7 @@
 
 .about-right{
 
-    flex-basis: 56%;
+    flex-basis: 55%;
 }
 
 .about-img{

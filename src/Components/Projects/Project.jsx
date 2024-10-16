@@ -19,7 +19,6 @@ function Project() {
     <div className="Project">
         <img src={pro2} alt="" />
         <div className="caption">
-            
             <p>Project Beta</p>
         </div>
     </div>
@@ -27,7 +26,6 @@ function Project() {
     <div className="Project">
         <img src={pro3} alt="" />
         <div className="caption">
-            
             <p>Project Gama</p>
         </div>
     </div>
